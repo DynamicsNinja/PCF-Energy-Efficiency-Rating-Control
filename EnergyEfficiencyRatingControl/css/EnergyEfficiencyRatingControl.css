@@ -1,0 +1,140 @@
+.Fic\.EnergyEfficiencyRatingControl .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.3;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+.Fic\.EnergyEfficiencyRatingControl .slider:hover {
+    opacity: 0.4;
+  }
+  
+.Fic\.EnergyEfficiencyRatingControl .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 25px;
+    background: black;
+    cursor: pointer;
+  }
+  
+.Fic\.EnergyEfficiencyRatingControl .slider::-moz-range-thumb {
+    width: 10px;
+    height: 25px;
+    background: black;
+    cursor: pointer;
+  }
+
+.Fic\.EnergyEfficiencyRatingControl .energy-class {
+    position: relative;
+    width: 96%; 
+    font-family : sans-serif;
+  }
+ 
+.Fic\.EnergyEfficiencyRatingControl .energy-class div {
+    position: relative;
+    height: 20px;
+    line-height: 20px;
+    margin: 2px 0;
+    right: 0px;
+    color: white;
+    text-shadow: 0 0 2px #000;
+    min-width: 35px;
+    text-align: left;
+    padding-left: 5px;
+  }
+.Fic\.EnergyEfficiencyRatingControl .energy-class div:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background: transparent;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+  }
+.Fic\.EnergyEfficiencyRatingControl .energy-class div:after {
+    position: absolute;
+    top: 0;
+    right: 0.25em;
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    text-shadow: 0 0 2px #000;
+    text-transform: uppercase;
+  }
+.Fic\.EnergyEfficiencyRatingControl .energy-class div.a-rating {
+    background: #3b7634;
+    display: block;
+  }
+.Fic\.EnergyEfficiencyRatingControl .energy-class div.a-rating:before {
+    border-left: 8px solid #3b7634;
+  }
+.Fic\.EnergyEfficiencyRatingControl .energy-class div.a-rating:after {
+    content: ' a ';
+  }
+.Fic\.EnergyEfficiencyRatingControl .energy-class div.b-rating {
+    background: #5da436;
+    display: block;
+  }
+.Fic\.EnergyEfficiencyRatingControl .energy-class div.b-rating:before {
+    border-left: 8px solid #5da436;
+  }
+.Fic\.EnergyEfficiencyRatingControl .energy-class div.b-rating:after {
+    content: ' b ';
+  }
+.Fic\.EnergyEfficiencyRatingControl .energy-class div.c-rating {
+    background: #a3cf2a;
+    display: block;
+  }
+.Fic\.EnergyEfficiencyRatingControl .energy-class div.c-rating:before {
+    border-left: 8px solid #a3cf2a;
+  }
+.Fic\.EnergyEfficiencyRatingControl .energy-class div.c-rating:after {
+    content: ' c ';
+  }
+.Fic\.EnergyEfficiencyRatingControl .energy-class div.d-rating {
+    background: #f6df1b;
+    display: block;
+  }
+.Fic\.EnergyEfficiencyRatingControl .energy-class div.d-rating:before {
+    border-left: 8px solid #f6df1b;
+  }
+.Fic\.EnergyEfficiencyRatingControl .energy-class div.d-rating:after {
+    content: ' d ';
+  }
+.Fic\.EnergyEfficiencyRatingControl .energy-class div.e-rating {
+    background: #f29020;
+    display: block;
+  }
+.Fic\.EnergyEfficiencyRatingControl .energy-class div.e-rating:before {
+    border-left: 8px solid #f29020;
+  }
+.Fic\.EnergyEfficiencyRatingControl .energy-class div.e-rating:after {
+    content: ' e ';
+  }
+.Fic\.EnergyEfficiencyRatingControl .energy-class div.f-rating {
+    background: #eb422c;
+    display: block;
+  }
+.Fic\.EnergyEfficiencyRatingControl .energy-class div.f-rating:before {
+    border-left: 8px solid #eb422c;
+  }
+.Fic\.EnergyEfficiencyRatingControl .energy-class div.f-rating:after {
+    content: ' f ';
+  }
+.Fic\.EnergyEfficiencyRatingControl .energy-class div.g-rating {
+    background: #ea2039;
+    display: block;
+  }
+.Fic\.EnergyEfficiencyRatingControl .energy-class div.g-rating:before {
+    border-left: 8px solid #ea2039;
+  }
+.Fic\.EnergyEfficiencyRatingControl .energy-class div.g-rating:after {
+    content: ' g ';
+  }
